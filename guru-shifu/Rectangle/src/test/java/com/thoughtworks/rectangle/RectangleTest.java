@@ -12,11 +12,11 @@ public class RectangleTest {
 
         double result = area.area();
 
-        assertThat(result, is(closeTo(5.3)));
+        assertThat(result, is(closeTo(5.3,5.4)));
     }
     
-    double closeTo(double d){
-       return  d;
+    double closeTo(double d1, double d2){
+       return  d1;
     }
     
 }
